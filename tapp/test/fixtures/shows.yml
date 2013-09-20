@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  showid: MyString
+  sname: MyString
+  smax: 1
+
+two:
+  showid: MyString
+  sname: MyString
+  smax: 1

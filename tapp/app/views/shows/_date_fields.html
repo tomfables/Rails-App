@@ -1,0 +1,11 @@
+<p>
+  <%= f.label :date %><br />
+  <%=  date_select("date", :default => Date.today, 
+    :order => [:month, :day, :year], :start_year => Date.today.year, 
+    :end_year => Date.today.year + 3)  %><br />
+</p> 
+<p> 
+	<%= f.label :time %>
+	<%= f.time_select :time %>
+</p>	
+

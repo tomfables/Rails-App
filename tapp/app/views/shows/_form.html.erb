@@ -1,0 +1,24 @@
+<h1> New Show </h1>
+<%= form_for :show, url: shows_path do |f| %>
+
+	<%= link_to 'Back', shows_path %>
+ 	<p>
+		
+		<%= f.label :Show_Name %><br>
+		<%= f.text_field :sname %>
+	</p>
+	
+	<p>
+		<%= f.label :Maximum_amount_of_Seats %> <br>
+		<%= f.text_field :smax %>
+	</p>
+	
+	<%= f.fields_for :show_to_times do |builder| %>
+    <%= render "date_fields", :f => builder %>
+    <% end %>
+	
+	<p>
+		<%= f.submit %> 
+		</p>
+	<% end %> 
+	

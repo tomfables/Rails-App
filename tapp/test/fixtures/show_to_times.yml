@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  showid: MyString
+  date: MyString
+  time: MyString
+
+two:
+  showid: MyString
+  date: MyString
+  time: MyString
